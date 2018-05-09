@@ -1,3 +1,8 @@
+<# 
+This depends on you having every employee's manager properly filled out in AD. If you don't have
+that, this script will do nothing for you. Also, this script only defines the functions, it does
+not run them.
+#>
 . $PSScriptRoot\_initialize-OnlineExchange.ps1
 . $PSScriptRoot\_Add-EditorPermissionToCalendar.ps1
 . $PSScriptRoot\_Get-UsersWithManager.ps1
